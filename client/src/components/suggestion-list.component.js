@@ -6,7 +6,7 @@ export default class SuggestionList extends Component {
 	constructor(props) {
 		super(props);
 
-		this.deleteSuggestion = this.deleteSuggestion.bind(this);
+		
 
 		this.state={suggestions: []};
 	}
